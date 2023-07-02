@@ -39,3 +39,17 @@
 }
 
 /*ESTILOS DEL BANNER*/
+.banner__container-div{
+    padding-top: 25px;
+}
+
+.banner__container-div h1{
+    font-size: 5.2rem;
+    line-height: 6.1rem;
+}
+
+.banner__container-div p{
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+}

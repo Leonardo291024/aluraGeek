@@ -91,6 +91,8 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .title__products h1{
