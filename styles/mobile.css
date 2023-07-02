@@ -80,25 +80,25 @@ main{
     padding: 10px 10px;
 }
 
-.seccion__starWars .title__starWars{
+.seccion__products .title__products{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.title__starWars h1{
+.title__products h1{
     font-weight: 700;
     font-size: 2.2rem;
     line-height: 2.5rem;
     color: #464646;
 }
 
-.title__starWars div{
+.title__products div{
     display: flex;
     align-items: center;
 }
 
-.title__starWars div p{
+.title__products div p{
     font-weight: 700;
     font-size: 1.4rem;
     line-height: 1.6rem;
@@ -106,7 +106,7 @@ main{
     margin-right: 5px;
 }
 
-.container__productos-starWars{
+.container__productos-starWars, .container__productos-consolas, .container__productos-diversos{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
