@@ -30,3 +30,47 @@ header{
     align-items: center;
     justify-content: center;
 }
+
+/*ESTILOS DEL BANNER*/
+.banner{
+    background-image: url(/logos/banner-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 192px;
+    padding: 10px 10px;
+}
+
+.banner__container-div{
+    padding-top: 45px;
+}
+
+.banner__container-div h1{
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.banner__container-div p{
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.boton__baner{
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    text-decoration: none;
+    width: 118px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
