@@ -74,3 +74,70 @@ header{
     align-items: center;
     justify-content: center;
 }
+
+/*ESTILOS DEL MAIN*/
+main{
+    padding: 10px 10px;
+}
+
+.seccion__starWars .title__starWars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title__starWars h1{
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    color: #464646;
+}
+
+.title__starWars div{
+    display: flex;
+    align-items: center;
+}
+
+.title__starWars div p{
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #2A7AE4;
+    margin-right: 5px;
+}
+
+.container__productos-starWars{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container__producto{
+    margin-bottom: 15px;
+}
+
+.container__producto img{
+    width: 140px;
+}
+
+.container__producto .name__product{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #464646;
+}
+
+.container__producto .price__product{
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: #464646;
+}
+
+.container__producto a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #2A7AE4;
+}
