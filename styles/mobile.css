@@ -141,3 +141,48 @@ main{
     line-height: 1.6rem;
     color: #2A7AE4;
 }
+
+/*ESTILOS DEL FOOTER*/
+footer{
+    background-color: #EAF2FD;
+    padding: 10px 10px;
+}
+
+.quienesSomos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quienesSomos a{
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: #464646;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.formulario h1{
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: #464646;
+}
+
+.formulario input, textarea{
+    width: 100%;
+    height: 56px;
+    margin-bottom: 10px;
+}
+
+.formulario button{
+    width: 133px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    border: none;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+}
