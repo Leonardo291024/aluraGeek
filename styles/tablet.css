@@ -53,3 +53,31 @@
     font-size: 2.2rem;
     line-height: 2.5rem;
 }
+
+/*ESTILOS DE FOOTER*/
+footer{
+    height: 326px;
+    display: flex;
+    align-items: center;
+}
+
+.quienesSomos{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+}
+
+.formulario input, textarea{
+    width: 90%;
+}
