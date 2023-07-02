@@ -5,13 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/mobile.css">
+    <link rel="stylesheet" href="./styles/tablet.css" media="(min-width:768px)">
     <title>Alura Geek</title>
 </head>
 <body>
     <header>
-        <img src="./logos/logoAluraGeek.svg" alt="logo-Alura-Geek">
-        <a href="" class="boton__login">Login</a>
-        <img src="./logos/icono-buscador.svg" alt="Buscador">
+        <div class="container__login-mobile">
+            <img src="./logos/logoAluraGeek.svg" alt="logo-Alura-Geek">
+            <a href="" class="boton__login">Login</a>
+            <img src="./logos/icono-buscador.svg" alt="Buscador">
+        </div>
+        <div class="container__login-tablet">
+            <img src="./logos/logoAluraGeek.svg" alt="">
+            <div class="container__buscador">
+                <input type="text" placeholder="¿Que deseas buscar?">
+                <button></button>
+            </div>
+            <a href="" class="boton__login">Login</a>
+        </div>
     </header>
 
     <section class="banner">

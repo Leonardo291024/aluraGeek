@@ -11,10 +11,17 @@ html{
 
 /*ESTILOS DEL HEADER*/
 header{
+    padding: 8px 8px;
+}
+
+.container__login-tablet{
+    display: none;
+}
+
+.container__login-mobile{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 8px;
 }
 
 .boton__login{

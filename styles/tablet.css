@@ -1,0 +1,41 @@
+/*ESTILOS DEL HEADER*/
+.container__login-mobile{
+    display: none;
+}
+
+.container__login-tablet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__buscador{
+    display: flex;
+}
+
+.container__login-tablet input{
+    width: 190px;
+    height: 40px;
+    padding: 10px 10px;
+    border-radius: 20px 0 0 20px;
+    border:none; 
+    background-color: #F5F5F5;
+}
+
+.container__login-tablet input:active{
+    border: #F5F5F5;
+}
+
+.container__login-tablet button{
+    width: 50px;
+    height: 40px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background-image: url(/logos/icone-buscador-tablet.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #F5F5F5;
+}
+
+/*ESTILOS DEL BANNER*/
