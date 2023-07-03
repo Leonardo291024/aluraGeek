@@ -160,6 +160,12 @@ footer{
 .quienesSomos{
     display: flex;
     flex-direction: column;
+    align-items: center; 
+}
+
+.quienesSomos div{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -170,6 +176,10 @@ footer{
     color: #464646;
     text-decoration: none;
     margin-bottom: 8px;
+}
+
+.formulario{
+    padding: 10px 10px;
 }
 
 .formulario h1{
