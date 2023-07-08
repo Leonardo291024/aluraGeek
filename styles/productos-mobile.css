@@ -6,7 +6,7 @@
 
 html{
     font-size: 62.5%;
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
 }
 
 /*ESTILOS DEL HEADER*/
@@ -19,3 +19,92 @@ header{
 .container__login-tablet{
     display: none;
 }
+
+/*ESTILOS DEL MAIN*/
+.todosLosProductos{
+    padding: 10px 10px;
+}
+
+.todosLosProductos h1{
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color: #464646;
+    margin-bottom: 10px;
+}
+
+.todosLosProductos button{
+    width: 150px;
+    height: 40px;
+    background-color: #2A7AE4;
+    border: none;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #FFFFFF;
+}
+
+.seccion__products .title__products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.title__products h1{
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    color: #464646;
+}
+
+.title__products div{
+    display: flex;
+    align-items: center;
+}
+
+.title__products div p{
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #2A7AE4;
+    margin-right: 5px;
+}
+
+.container__productos-starWars, .container__productos-consolas, .container__productos-diversos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container__producto{
+    margin-bottom: 30px;
+}
+
+.container__producto img{
+    width: 140px;
+}
+
+.container__producto .name__product{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #464646;
+}
+
+.container__producto .price__product{
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: #464646;
+}
+
+.container__producto a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #2A7AE4;
+}
+
