@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Raleway', sans-serif;;
+}
+
+/*ESTILOS DEL HEADER*/
+header{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__login-tablet{
+    display: none;
+}
