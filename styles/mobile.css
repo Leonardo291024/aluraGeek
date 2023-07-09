@@ -102,12 +102,13 @@ main{
     color: #464646;
 }
 
-.title__products div{
+.title__products a{
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
-.title__products div p{
+.title__products a p{
     font-weight: 700;
     font-size: 1.4rem;
     line-height: 1.6rem;
