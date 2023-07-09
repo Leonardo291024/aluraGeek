@@ -34,12 +34,12 @@
 }
 
 /*ESTILOS DEL MAIN*/
-main form .inputsP{
+main .container__inputs .inputsP{
     width: 90%;
     
 }
 
-main form .Agregar-prodducto{
+main .container__inputs .Agregar-prodducto{
     width: 90%;
 }
 
