@@ -40,7 +40,7 @@ header{
 
 /*ESTILOS DEL BANNER*/
 .banner{
-    background-image: url(/logos/banner-image.png);
+    background-image: url(../logos/banner-image.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
