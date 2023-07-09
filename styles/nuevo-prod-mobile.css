@@ -25,17 +25,19 @@ header{
 }
 
 .boton__login{
-    font-weight: 600;
-    font-size: 1.4rem;
-    line-height: 1.6rem;
-    color: #2A7AE4;
     text-decoration: none;
-    width: 166px;
-    height: 40px;
-    border: 1px solid #2A7AE4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(../logos/carritoCompras-48.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s all;
+}
+
+.boton__login:hover{
+    transform: scale(1.5);
 }
 
 /*ESTILOS DEL MAIN*/
@@ -78,6 +80,17 @@ main .container__inputs .Agregar-prodducto{
     font-size: 1.4rem;
     line-height: 1.6rem;
     cursor: pointer;
+}
+
+.container__carrito{
+    padding: 10px 10px;
+}
+
+.container__producto li p{
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    color: #464646;
 }
 
 /*ESTILOS DEL FOOTER*/

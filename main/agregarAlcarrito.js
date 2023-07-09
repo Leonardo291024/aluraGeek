@@ -31,6 +31,7 @@ function agregarProducto(){
 
 
     //DESPUES DE AGREGAR UN PRODUCTO LOS INPUTS SE LIMPIAN PARA AGREGAR UNO NUEVO
+    document.getElementById('urlImagen').value = "";
     document.getElementById("categoria").value = "";
     document.getElementById("nombre").value = "";
     document.getElementById("precio").value = "";
@@ -53,6 +54,7 @@ function actualizarCarrito(){
         //CREAMOS EL ELEMENTO LISTA QUE VA  A GUARDAR EL CONTENIDO HTML 
         var li = document.createElement("li");
         li.innerHTML = `
+          <h3>Carrito de compras</h3>
           <img src="${producto.urlImagen}" alt="Imagen del producto">
           <h3>${producto.nombre}</h3>
           <p>Categoría: ${producto.categoria}</p>
