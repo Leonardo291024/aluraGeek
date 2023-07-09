@@ -6,12 +6,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/nuevo-prod-mobile.css">
     <link rel="stylesheet" href="./styles/nuevo-prod-tablet.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="./styles/nuevo-prod-desktop.css" media="(min-width: 1024px)">
     <title>Agregar nuevo producto</title>
 </head>
 <body>
     <header>
         <div class="container__login-mobile">
-            <img src="./logos/logoAluraGeek.svg" alt="logo-Alura-Geek">
+            <img src="./logos/logoAluraGeek.svg" alt="logo-Alura-Geek" class="logo-alura">
             <a href="/logIn.html" class="boton__login">Menu administrador</a>
             <img src="./logos/icono-buscador.svg" alt="Buscador">
         </div>
@@ -25,14 +26,14 @@
         </div>
     </header>
 
-    <main>
+    <main class="container__form">
         <h1>Agregar nuevo producto</h1>
-        <form action="">
-            <input type="url" name="" id="" placeholder="URL de la imagen">
-            <input type="text" name="" id="" placeholder="Categoria">
-            <input type="text" name="" id="" placeholder="Nombre del producto">
-            <input type="number" name="" id="" placeholder="$precio del producto">
-            <input type="text" name="" id="" placeholder="Descripcion del producto">
+        <form action="" class="container__inputs">
+            <input type="url" name="" id="" placeholder="URL de la imagen" class="inputsP">
+            <input type="text" name="" id="" placeholder="Categoria" class="inputsP">
+            <input type="text" name="" id="" placeholder="Nombre del producto" class="inputsP">
+            <input type="number" name="" id="" placeholder="$precio del producto" class="inputsP">
+            <input type="text" name="" id="" placeholder="Descripcion del producto" class="inputsP">
             <input type="submit" class="Agregar-prodducto" placeholder="Agregar producto">
         </form>
     </main>

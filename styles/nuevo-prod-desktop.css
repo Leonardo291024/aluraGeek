@@ -4,15 +4,14 @@
 }
 
 /*ESTILOS DEL MAIN*/
-main form .input-logIn{
-    width: 423px;
-    height: 63px;
+main form .inputsP{
+    width: 50%;
 }
 
-main form .entrar{
-    width: 423px;
-    height: 62px;
+main form .Agregar-prodducto{
+    width: 50%;
 }
+
 
 /*ESTILOS DEL FOOTER*/
 .quienesSomos{

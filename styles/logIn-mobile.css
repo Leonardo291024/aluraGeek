@@ -42,7 +42,7 @@ main form{
     align-items: center;
 }
 
-main form input{
+main form .input-logIn{
     width: 275px;
     height: 40px;
     padding: 5px 5px;

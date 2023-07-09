@@ -34,9 +34,15 @@
 }
 
 /*ESTILOS DEL MAIN*/
-main form input{
+main form .inputsP{
+    width: 90%;
+    
+}
+
+main form .Agregar-prodducto{
     width: 90%;
 }
+
 
 /*ESTILOS DEL FOOTER*/
 footer{

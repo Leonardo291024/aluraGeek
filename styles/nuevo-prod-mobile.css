@@ -53,8 +53,7 @@ main h1{
     color: #464646;
 }
 
-main form{
-    height: 50vh;
+main .container__inputs{
     padding: 20px 20px;
     display: flex;
     flex-direction: column;
@@ -62,7 +61,7 @@ main form{
     align-items: center;
 }
 
-main form input{
+main form .inputsP{
     width: 100%;
     height: 56px;
     padding: 5px 5px;
@@ -70,6 +69,7 @@ main form input{
 }
 
 main form .Agregar-prodducto{
+    width: 100%;
     height: 51px;
     border: none;
     background-color: #2A7AE4;
