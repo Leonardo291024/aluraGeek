@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Raleway', sans-serif;;
+}
+
+/*ESTILOS DEL HEADER*/
+header{
+    padding: 8px 8px;
+}
+
+.container__login-tablet{
+    display: none;
+}
+
+.container__login-mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton__login{
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #2A7AE4;
+    text-decoration: none;
+    width: 166px;
+    height: 40px;
+    border: 1px solid #2A7AE4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
