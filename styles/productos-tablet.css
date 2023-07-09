@@ -1,0 +1,74 @@
+/*ESTILOS DEL HEADER*/
+header{
+    justify-content: flex-start;
+}
+
+.icon-buscador{
+    display: none;
+}
+
+.container__login-tablet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__buscador{
+    display: flex;
+}
+
+.container__login-tablet input{
+    width: 190px;
+    height: 40px;
+    padding: 10px 10px;
+    border-radius: 20px 0 0 20px;
+    margin-left: 20px;
+    border:none; 
+    background-color: #F5F5F5;
+}
+
+.container__login-tablet button{
+    width: 50px;
+    height: 40px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background-image: url(/logos/icone-buscador-tablet.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F5F5;
+}
+
+/*ESTILOS DEL MAIN*/
+.todosLosProductos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*ESTILOS DEL FOOTER*/
+footer{
+    height: 326px;
+    display: flex;
+    align-items: center;
+}
+
+.quienesSomos{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+}
+
+.formulario input, textarea{
+    width: 90%;
+}
