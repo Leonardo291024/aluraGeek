@@ -37,3 +37,98 @@ header{
     align-items: center;
     justify-content: center;
 }
+
+/*ESTILOS DEL MAIN*/
+main{
+    background-color: #F5F5F5;
+}
+
+main h1{
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: #464646;
+}
+
+main form{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main form input{
+    width: 275px;
+    height: 56px;
+    padding: 5px 5px;
+    margin-bottom: 15px;
+}
+
+main form .Agregar-prodducto{
+    height: 51px;
+    border: none;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}
+
+/*ESTILOS DEL FOOTER*/
+footer{
+    background-color: #EAF2FD;
+    padding: 10px 10px;
+}
+
+.quienesSomos{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.quienesSomos div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quienesSomos a{
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: #464646;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.formulario{
+    padding: 10px 10px;
+}
+
+.formulario h1{
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: #464646;
+}
+
+.formulario input, textarea{
+    width: 100%;
+    height: 56px;
+    margin-bottom: 10px;
+}
+
+.formulario button{
+    width: 133px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    border: none;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+}
