@@ -1,0 +1,23 @@
+/*ESTILOS DEL HEADER*/
+.logo-alura{
+    width: 176px;
+}
+
+/*ESTILOS DEL FOOTER*/
+.quienesSomos{
+    width: 50%;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.quienesSomos div{
+    margin-left: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.formulario{
+    margin-left: 25px;
+}
