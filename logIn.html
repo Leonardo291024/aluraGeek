@@ -25,9 +25,9 @@
         <h1>Iniciar sesion</h1>
         <form action="">
             <input type="text" placeholder="Nombre" class="input-logIn" required>
-            <input type="date" placeholder="Fecha de nacimiento" class="input-logIn" required>
+            <input type="date" placeholder="Fecha de nacimiento" class="input-logIn" id="birth" required>
             <input type="email" name="email" id="email" placeholder="Escriba su correo electronico" class="input-logIn" required data-tipo="email">
-            <input type="password" name="" id="" placeholder="Escriba su contraseña"  class="input-logIn" required pattern="^(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{6,12}$" title="Al menos 6 caracteres, maximo 12 caracteres debe contener una letra minuscula, una letra mayuscula, un numero y no puede contener caracteres especiales.">
+            <input type="password" name="" placeholder="Escriba su contraseña"  class="input-logIn" required pattern="^(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{6,12}$" title="Al menos 6 caracteres, maximo 12 caracteres debe contener una letra minuscula, una letra mayuscula, un numero y no puede contener caracteres especiales.">
             <input type="submit" class="entrar">
         </form>
     </main>
@@ -47,9 +47,11 @@
         <form action="" class="formulario">
             <h1>Hable con nosotros</h1>
             <input type="text" placeholder="nombre">
-            <textarea name="" id="" cols="30" rows="10">Escribe tu mensaje</textarea>
+            <textarea name="" cols="30" rows="10">Escribe tu mensaje</textarea>
             <button type="submit">Enviar mensaje</button>
         </form>
     </footer>
+
+    <script src="./main/validaciones.js"></script>
 </body>
 </html>
