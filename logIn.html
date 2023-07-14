@@ -24,8 +24,8 @@
     <main>
         <h1>Iniciar sesion</h1>
         <form action="">
-            <input type="email" name="" id="" placeholder="Escriba su correo electronico" class="input-logIn">
-            <input type="password" name="" id="" placeholder="Escriba su contraseña"  class="input-logIn">
+            <input type="email" name="email" id="email" placeholder="Escriba su correo electronico" class="input-logIn" required data-tipo="email">
+            <input type="password" name="" id="" placeholder="Escriba su contraseña"  class="input-logIn" required pattern="^(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{6,12}$" title="Al menos 6 caracteres, maximo 12 caracteres debe contener una letra minuscula, una letra mayuscula, un numero y no puede contener caracteres especiales.">
             <input type="submit" class="entrar">
         </form>
     </main>
