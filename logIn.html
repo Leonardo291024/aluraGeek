@@ -25,7 +25,7 @@
         <h1>Iniciar sesion</h1>
         <form action="./productos.html">
             <div class="input-container">
-                <input type="text" name="name" placeholder="Nombre" class="input-logIn" id="name" required>
+                <input type="text" name="name" placeholder="Nombre" class="input-logIn" id="name" required data-tipo="nombre">
                 <label for="name" class="input-label">Nombre</label>
                 <span class="input-message-error">Este campo no es valido</span>
             </div>
@@ -40,7 +40,7 @@
                 <span class="input-message-error">Este campo no es valido</span>
             </div>
             <div  class="input-container">
-                <input type="password" name="" placeholder="Escriba su contraseña"  class="input-logIn" required pattern="^(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{6,12}$" title="Al menos 6 caracteres, maximo 12 caracteres debe contener una letra minuscula, una letra mayuscula, un numero y no puede contener caracteres especiales." id="contrasena">
+                <input type="password" name="" placeholder="Escriba su contraseña"  class="input-logIn" required pattern="^(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{6,12}$" title="Al menos 6 caracteres, maximo 12 caracteres debe contener una letra minuscula, una letra mayuscula, un numero y no puede contener caracteres especiales." id="contrasena" data-tipo="contrasena">
                 <label for="contrasena" class="input-label">contraseña</label>
                 <span class="input-message-error">Este campo no es valido</span>
             </div>
