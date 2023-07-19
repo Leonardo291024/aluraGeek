@@ -9,18 +9,18 @@ export function valida(input){
 
     if(input.validity.valid){
         input.parentElement.classList.remove("input-container--invalid")
-        input.parentElement.querySelector(".input-message-error").inerrHTML = ""
+        input.parentElement.querySelector(".input-message-error").innerHTML = ""
     }else{
         input.parentElement.classList.add("input-container--invalid")
-        input.parentElement.querySelector(".input-message-error").inerrHTML = mostrarMensjeError(tipoDeInput, input)
+        input.parentElement.querySelector(".input-message-error").innerHTML = mostrarMensjeError(tipoDeInput, input);
     }
 }
 
 const tipoDeErrores = [
-    'valueMissing',
-    'typeMismatch',
-    'patternMismatch',
-     'customError'
+    "valueMissing",
+    "typeMismatch",
+    "patternMismatch",
+     "customError",
 ]
 
 const mensajesError = {
@@ -45,7 +45,7 @@ const mensajesError = {
 }
 
 const validadores = {
-    nacimiento: input => validarNcimiento(input)
+    nacimiento: (input) => validarNcimiento(input)
 }
 
 /*inputNcimiento.addEventListener("blur", (evento) =>{
@@ -53,25 +53,23 @@ const validadores = {
 });*/
 
 function mostrarMensjeError(tipoDeInput, input){
-    let mensje = ""
-    tipoDeErrores.forEach( error => {
+    let mensaje = ""
+    tipoDeErrores.forEach((error) => {
         if(input.validity[error]){
-            console.log(tipoDeInput, error)
-            console.log(error)
-            console.log(input.validity[error])
-            console.log(mensajesError[tipoDeInput][error])
-            mensje = mensajesError[tipoDeInput][error]
+            console.log(tipoDeInput, error);
+            console.log(input.validity[error]);
+            console.log(mensajesError[tipoDeInput][error]);
+            mensaje = mensajesError[tipoDeInput][error];
         }
-    })
-
-    return mensje
+    });
+    return mensaje;
 }
 
 function validarNcimiento(input){
     const fechaCliente = new Date(input.value);
     let mensaje = "";
     if(!mayorEdad(fechaCliente)){
-        mensaje = "Debes tener al menos 18 años de edad"
+        mensaje = "Este campo no puede estar vacio"
     }
     
 
