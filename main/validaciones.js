@@ -69,7 +69,7 @@ function validarNcimiento(input){
     const fechaCliente = new Date(input.value);
     let mensaje = "";
     if(!mayorEdad(fechaCliente)){
-        mensaje = "Este campo no puede estar vacio"
+        mensaje = ""
     }
     
 
