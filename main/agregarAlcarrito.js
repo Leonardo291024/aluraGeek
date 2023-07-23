@@ -62,7 +62,7 @@ function actualizarCarrito(){
           `;*/
 
           li.innerHTML = `<img src="${producto.urlImagen}" alt="Imagen del producto">
-                        <div>
+                        <div  class="descripcion__producto">
                             <h2>${producto.nombre}</h2>
                             <p>Precio: $${producto.precio}</p>
                         </div>

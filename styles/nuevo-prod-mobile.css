@@ -42,14 +42,14 @@ header{
 }
 
 .container__carrito{
-    width: 520px;
+    width: 290px;
     height: auto;
     background-color: #F5F5F5;
     padding: 10px 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     position: absolute;
-    left: 50%;
+    left: calc(50% - 150px);
 }
 
 .container__carrito li{
@@ -61,6 +61,10 @@ header{
 
 .container__carrito li img{
     width: 120px;
+}
+
+.container__carrito .descripcion__producto{
+    margin-left: 10px;
 }
 
 .container__producto li p{

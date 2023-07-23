@@ -3,6 +3,10 @@
     width: 176px;
 }
 
+.container__carrito{
+    width: 520px;
+    left: 47% ;
+}
 
 /*ESTILOS DEL MAIN*/
 main form .inputsP{
