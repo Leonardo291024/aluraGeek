@@ -25,11 +25,11 @@ const tipoDeErrores = [
 
 const mensajesError = {
      nombre: {
-        valueMissing: "Este campo nombre no puede estar vacio"
+        valueMissing: "Este campo no puede estar vacio"
      },
 
      nacimiento: {
-        valueMissing: "Este campo nacimiento no puede estar vacio",
+        valueMissing: "Este campo no puede estar vacio",
         customError: "Debes tener al menos 18 años de edad"
      },
 
@@ -39,7 +39,7 @@ const mensajesError = {
      }, */
 
      password: {
-        valueMissing: "Este campo contraseña no puede estar vacio",
+        valueMissing: "Este campo no puede estar vacio",
         patternMismatch: "Al menos 6 caracteres, maximo 12 caracteres debe contener una letra minuscula, una letra mayuscula, un numero y no puede contener caracteres especiales"
      }
 }
