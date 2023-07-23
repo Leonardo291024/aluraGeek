@@ -12,6 +12,7 @@ html{
 /*ESTILOS DEL HEADER*/
 header{
     padding: 8px 8px;
+    position: relative;
 }
 
 .container__login-tablet{
@@ -39,6 +40,52 @@ header{
 .boton__login:hover{
     transform: scale(1.5);
 }
+
+.container__carrito{
+    width: 520px;
+    height: auto;
+    background-color: #F5F5F5;
+    padding: 10px 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 50%;
+}
+
+.container__carrito li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.container__carrito li img{
+    width: 120px;
+}
+
+.container__producto li p{
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    color: #2A7AE4;
+}
+
+.eliminar__producto{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-image: url(/logos/basura-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.eliminar__producto:hover{
+    transform: scale(1.5);
+}
+
 
 /*ESTILOS DEL MAIN*/
 main{
@@ -80,17 +127,6 @@ main .container__inputs .Agregar-prodducto{
     font-size: 1.4rem;
     line-height: 1.6rem;
     cursor: pointer;
-}
-
-.container__carrito{
-    padding: 10px 10px;
-}
-
-.container__producto li p{
-    font-weight: 700;
-    font-size: 2.2rem;
-    line-height: 2.5rem;
-    color: #464646;
 }
 
 /*ESTILOS DEL FOOTER*/

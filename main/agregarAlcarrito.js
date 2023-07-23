@@ -53,14 +53,20 @@ function actualizarCarrito(){
 
         //CREAMOS EL ELEMENTO LISTA QUE VA  A GUARDAR EL CONTENIDO HTML 
         var li = document.createElement("li");
-        li.innerHTML = `
-          <h3>Carrito de compras</h3>
+        /*li.innerHTML = `
           <img src="${producto.urlImagen}" alt="Imagen del producto">
-          <h3>${producto.nombre}</h3>
+          <h2>${producto.nombre}</h2>
           <p>Categoría: ${producto.categoria}</p>
           <p>Precio: $${producto.precio}</p>
           <p>${producto.descripcion}</p>
-          `;
+          `;*/
+
+          li.innerHTML = `<img src="${producto.urlImagen}" alt="Imagen del producto">
+                        <div>
+                            <h2>${producto.nombre}</h2>
+                            <p>Precio: $${producto.precio}</p>
+                        </div>
+                        <button class="eliminar__producto"></button>`
 
 
         //USAMOS EL METODO APENDCHILD PARA AGREGAR LOS ELEMENTOS LI AL UL
