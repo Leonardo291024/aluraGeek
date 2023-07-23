@@ -33,10 +33,10 @@ const mensajesError = {
         customError: "Debes tener al menos 18 años de edad"
      },
 
-     email: {
+    /* email: {
         valueMissing: "Este campo correo no puede estar vacio",
         typeMismatch: "El correo no es valido"
-     }, 
+     }, */
 
      password: {
         valueMissing: "Este campo contraseña no puede estar vacio",
@@ -45,7 +45,7 @@ const mensajesError = {
 }
 
 const validadores = {
-    nacimiento: (input) => validarNcimiento(input)
+    nacimiento: (input) => validarInput(input)
 }
 
 /*inputNcimiento.addEventListener("blur", (evento) =>{
@@ -65,7 +65,7 @@ function mostrarMensjeError(tipoDeInput, input){
     return mensaje;
 }
 
-function validarNcimiento(input){
+/*function validarNcimiento(input){
     const fechaCliente = new Date(input.value);
     let mensaje = "";
     if(!mayorEdad(fechaCliente)){
@@ -80,4 +80,4 @@ function mayorEdad(fecha){
     const fechaActual = new Date();
     const diferenciaFechas = new Date(fecha.getUTCFullYear() + 18, fecha.getUTCMonth(), fecha.getUTCDate());
     return diferenciaFechas <= fechaActual;
-}
+}*/
