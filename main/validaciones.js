@@ -28,15 +28,10 @@ const mensajesError = {
         valueMissing: "Este campo no puede estar vacio"
      },
 
-     nacimiento: {
+     email: {
         valueMissing: "Este campo no puede estar vacio",
-        customError: "Debes tener al menos 18 años de edad"
-     },
-
-    /* email: {
-        valueMissing: "Este campo correo no puede estar vacio",
         typeMismatch: "El correo no es valido"
-     }, */
+     },
 
      password: {
         valueMissing: "Este campo no puede estar vacio",
