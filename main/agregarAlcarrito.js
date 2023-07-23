@@ -15,7 +15,7 @@ function agregarProducto(){
 
     //LA VARIABLE PRODUCTO QUE ES UN OBJETO VA A GUARDAR CADA UNA DE LAS CARACTERISTICAS DEL PROUCTO
     var producto = {
-        urlImagen: (/productosImg/consolas1.png,/productosImg/consolas2.png,/productosImg/consolas3.png),
+        urlImagen: urlImagen,
         categoria: categoria,
         nombre: nombre,
         precio: precio,
