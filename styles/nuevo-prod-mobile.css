@@ -78,7 +78,7 @@ header{
     width: 30px;
     height: 30px;
     border: none;
-    background-image: url(/logos/basura-logo.png);
+    background-image: url(../logos/basura-logo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
