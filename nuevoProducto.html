@@ -22,22 +22,29 @@
                 <input type="text" placeholder="¿Que deseas buscar?">
                 <button></button>
             </div>
-            <a href="./logIn.html" class="boton__login">Menu administrador</a>
+            <a href="/logIn.html" class="boton__login">Menu administrador</a>
         </div>
+
+        <section class="container__carrito">
+            <!--ul id="carrito"></!--ul-->
+            <ul class="container__producto" id="carrito">
+                
+            </ul>
+         </section>
     </header>
 
     <main class="container__form">
         <h1>Agregar nuevo producto</h1>
-        <form action="" class="container__inputs">
-            <input type="url" name="" id="" placeholder="URL de la imagen" class="inputsP">
-            <input type="text" name="" id="" placeholder="Categoria" class="inputsP">
-            <input type="text" name="" id="" placeholder="Nombre del producto" class="inputsP">
-            <input type="number" name="" id="" placeholder="$precio del producto" class="inputsP">
-            <input type="text" name="" id="" placeholder="Descripcion del producto" class="inputsP">
-            <input type="submit" class="Agregar-prodducto" placeholder="Agregar producto">
-        </form>
+        <section class="container__inputs">
+            <input type="url" name="" id="urlImagen" placeholder="URL de la imagen" class="inputsP">
+            <input type="text" name="" id="categoria" placeholder="Categoria" class="inputsP">
+            <input type="text" name="" id="nombre" placeholder="Nombre del producto" class="inputsP">
+            <input type="number" name="" id="precio" placeholder="$precio del producto" class="inputsP">
+            <input type="text" name="" id="descripcion" placeholder="Descripcion del producto" class="inputsP">
+            <button type="button" class="Agregar-prodducto" id="agregar__producto">Agreagar al carrito</button>
+        </section>
     </main>
-
+   
     <footer>
         <div class="quienesSomos">
             <img src="./logos/logo-footer.svg" alt="">
@@ -57,6 +64,6 @@
             <button type="submit">Enviar mensaje</button>
         </form>
     </footer>
-
+    <script src="./main/agregarAlcarrito.js"></script>
 </body>
 </html>

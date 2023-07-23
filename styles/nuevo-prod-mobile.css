@@ -12,6 +12,7 @@ html{
 /*ESTILOS DEL HEADER*/
 header{
     padding: 8px 8px;
+    position: relative;
 }
 
 .container__login-tablet{
@@ -25,18 +26,70 @@ header{
 }
 
 .boton__login{
-    font-weight: 600;
-    font-size: 1.4rem;
-    line-height: 1.6rem;
-    color: #2A7AE4;
     text-decoration: none;
-    width: 166px;
-    height: 40px;
-    border: 1px solid #2A7AE4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(../logos/carritoCompras-48.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s all;
 }
+
+.boton__login:hover{
+    transform: scale(1.5);
+}
+
+.container__carrito{
+    width: 290px;
+    height: auto;
+    background-color: #F5F5F5;
+    padding: 10px 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: calc(50% - 150px);
+}
+
+.container__carrito li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.container__carrito li img{
+    width: 120px;
+}
+
+.container__carrito .descripcion__producto{
+    margin-left: 10px;
+}
+
+.container__producto li p{
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    color: #2A7AE4;
+}
+
+.eliminar__producto{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-image: url(/logos/basura-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.eliminar__producto:hover{
+    transform: scale(1.5);
+}
+
 
 /*ESTILOS DEL MAIN*/
 main{
@@ -61,14 +114,14 @@ main .container__inputs{
     align-items: center;
 }
 
-main form .inputsP{
+main .container__inputs .inputsP{
     width: 100%;
     height: 56px;
     padding: 5px 5px;
     margin-bottom: 15px;
 }
 
-main form .Agregar-prodducto{
+main .container__inputs .Agregar-prodducto{
     width: 100%;
     height: 51px;
     border: none;
@@ -77,6 +130,7 @@ main form .Agregar-prodducto{
     font-weight: 600;
     font-size: 1.4rem;
     line-height: 1.6rem;
+    cursor: pointer;
 }
 
 /*ESTILOS DEL FOOTER*/
