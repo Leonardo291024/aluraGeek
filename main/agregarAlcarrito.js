@@ -38,6 +38,11 @@ function agregarProducto(){
     document.getElementById("descripcion").value = "";
 }
 
+function eliminarDelCarrito(index){
+    carrito.splice(index, 1);
+    actualizarCarrito();
+}
+
 function actualizarCarrito(){
     //LA VARIABLE CARRITOeLEMNTO TRAE DEL HTML EL ELEMENTO UL DONDE SE GUARDARA LA LISTA DE CADA PRODUCTO
     var carritoElemnto = document.getElementById('carrito');
@@ -65,9 +70,18 @@ function actualizarCarrito(){
                         <div  class="descripcion__producto">
                             <h2>${producto.nombre}</h2>
                             <p>Precio: $${producto.precio}</p>
-                        </div>
-                        <button class="eliminar__producto"></button>`
+                        </div>`;
 
+        var botonEliminar = document.createElement('button');
+
+        botonEliminar.innerHTML = `<button class="eliminar__producto"></button>`;
+        botonEliminar.onclick = (function (index){
+            return function(){
+                eliminarDelCarrito(index);
+            };
+        })(i);
+
+        li.appendChild(botonEliminar);
 
         //USAMOS EL METODO APENDCHILD PARA AGREGAR LOS ELEMENTOS LI AL UL
         carritoElemnto.appendChild(li);
