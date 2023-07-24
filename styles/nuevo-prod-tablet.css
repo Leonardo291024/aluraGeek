@@ -1,13 +1,13 @@
 /*ESTILOS DEL HEADER*/
-.container__login-mobile{
+/*.container__login-mobile{
     display: none;
-}
+}*/
 
-.container__login-tablet{
+/*.container__login-tablet{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+}*/
 
 .container__buscador{
     display: flex;
@@ -22,15 +22,8 @@
     background-color: #F5F5F5;
 }
 
-.container__login-tablet button{
-    width: 50px;
-    height: 40px;
-    border: none;
-    border-radius: 0 20px 20px 0;
-    background-image: url(/logos/icone-buscador-tablet.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #F5F5F5;
+.inactive{
+    display: none;
 }
 
 .container__carrito{

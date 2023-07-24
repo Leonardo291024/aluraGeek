@@ -15,9 +15,9 @@ header{
     position: relative;
 }
 
-.container__login-tablet{
+/*.container__login-tablet{
     display: none;
-}
+}*/
 
 .container__login-mobile{
     display: flex;
@@ -26,6 +26,7 @@ header{
 }
 
 .boton__login{
+    border: none;
     text-decoration: none;
     width: 30px;
     height: 30px;
@@ -39,6 +40,10 @@ header{
 
 .boton__login:hover{
     transform: scale(1.5);
+}
+
+.inactive{
+    display: none;
 }
 
 .container__carrito{

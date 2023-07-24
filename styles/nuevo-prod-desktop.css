@@ -3,6 +3,10 @@
     width: 176px;
 }
 
+.inactive{
+    display: none;
+}
+
 .container__carrito{
     width: 520px;
     left: 47% ;

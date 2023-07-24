@@ -1,3 +1,14 @@
+const botonCarrito = document.getElementById('btn__carrito');
+
+const seccionCarrito = document.querySelector('.container__carrito');
+
+botonCarrito.addEventListener('click', toggleCarrito);
+
+function toggleCarrito(){
+    console.log(seccionCarrito)
+    seccionCarrito.classList.toggle('inactive');
+}
+
 //CREAMOS UNA VARIABLE CARRITO QUE VA A GUARDAR EN UNA LISTA CON CADA UNO DE LOS PRODUCTOS
 const btnCarrito = document.getElementById('agregar__producto');
 
@@ -38,9 +49,11 @@ function agregarProducto(){
     document.getElementById("descripcion").value = "";
 }
 
-function eliminarDelCarrito(index){
+/*ESTA FUNCION SE EJECUTA AL DAR CLICK EN EL BOTON ELIMINAR */
+function eliminarDelCarrito(index){//TOMA COMO ARGUMENTO EL INDICE QUE ES LA POSICION ACTUAL DE LA LISTA DE PRODUCTOS Y EL PRODUCTO QUE SE DESEA ELIMINAR
+    //EL METODO SPLICE MODIFICA EL ARREGLO CARRITO TOMA COMO ARGUMENTO EL INDICE QUE DESEAMOS ELIMIAR Y LA CANTIDAD DE ELEMTOS QUE QUEREMOS  ELIMINAR
     carrito.splice(index, 1);
-    actualizarCarrito();
+    actualizarCarrito();//LLAMAMOS A LA FUNCION PARA GENERAR LA LISTA 
 }
 
 function actualizarCarrito(){
