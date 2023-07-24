@@ -17,8 +17,8 @@ main form .inputsP{
     width: 50%;
 }
 
-main form .Agregar-prodducto{
-    width: 50%;
+main .container__inputs .Agregar-prodducto{
+    width: 22%;
 }
 
 

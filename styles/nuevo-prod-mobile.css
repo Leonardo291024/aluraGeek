@@ -127,7 +127,7 @@ main .container__inputs .inputsP{
 }
 
 main .container__inputs .Agregar-prodducto{
-    width: 100%;
+    width: 70%;
     height: 51px;
     border: none;
     background-color: #2A7AE4;
@@ -136,6 +136,19 @@ main .container__inputs .Agregar-prodducto{
     font-size: 1.4rem;
     line-height: 1.6rem;
     cursor: pointer;
+    position: relative;
+    transition: .4s ease-in;
+    z-index: 1;
+}
+
+.Agregar-prodducto::before, .Agregar-prodducto::after{
+    position: absolute;
+    content: "";
+    z-index: -1;
+}
+
+.Agregar-prodducto:hover{
+   box-shadow: inset -10.5em 0 0 0 #464646, inset 10.5em 0 0 0 #464646;
 }
 
 /*ESTILOS DEL FOOTER*/
