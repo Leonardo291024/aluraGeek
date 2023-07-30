@@ -59,9 +59,18 @@
         </div>
         <form action="" class="formulario">
             <h1>Hable con nosotros</h1>
-            <input type="text" placeholder="nombre">
-            <textarea name="" cols="30" rows="10">Escribe tu mensaje</textarea>
-            <button type="submit">Enviar mensaje</button>
+            <div class="input-container">
+                <input type="text" placeholder="nombre" maxlength="40"  class="input-logIn" id="name" required data-tipo="nombre">
+                <span class="input-message-error"></span>
+            </div>
+
+            <div class="input-container">
+                <textarea name="" cols="30" rows="10" maxlength="120" placeholder="mensaje" class="input-logIn" id="name" required data-tipo="nombre"></textarea>
+                <span class="input-message-error"></span>
+            </div>
+            <div class="containerBTNEnviar">
+                <button type="submit">Enviar mensaje</button>
+            </div>
         </form>
     </footer>
 

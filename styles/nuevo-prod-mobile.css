@@ -205,3 +205,57 @@ footer{
     color: #FFFFFF;
     background-color: #2A7AE4;
 }
+
+.input-logIn{
+    box-sizing: border-box;
+    width: 275px;
+    height: 40px;
+    padding: 5px 5px;
+    margin-bottom: 15px;
+}
+
+.input-logIn::placeholder{
+    visibility: hidden;
+    color: #464646;
+}
+
+.input-logIn:focus{
+    outline: none;
+}
+
+.input-label{
+    position: absolute;
+    top: 1.375rem;
+    transition:  all 0.26s;
+    font-size: 1.6rem;
+}
+
+.input-logIn:not(:placeholder-shown) + .input-label, .input-logIn:focus + .input-label{
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.26s;
+}
+
+.input-container--invalid{
+    margin-bottom: 0.5rem;
+}
+
+.input-container--invalid .input-logIn{
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+.input-container--invalid .input-label{
+    color: red;
+}
+
+.input-message-error {
+    display: none;
+}
+
+.input-container--invalid .input-message-error {
+    color: red;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  }
