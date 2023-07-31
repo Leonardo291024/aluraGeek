@@ -130,14 +130,16 @@
             <div class="input-container">
                 <input type="text" placeholder="nombre" maxlength="40"  class="input-logIn" id="name" required data-tipo="nombre">
                 <span class="input-message-error"></span>
+                  <span class="error"></span>
             </div>
 
             <div class="input-container">
-                <textarea name="" cols="30" rows="10" maxlength="120" placeholder="mensaje" class="input-logIn" id="name" required data-tipo="nombre"></textarea>
+                <textarea name="" cols="30" rows="10" maxlength="120" placeholder="mensaje" class="input-logIn" id="mensaje" required data-tipo="nombre"></textarea>
                 <span class="input-message-error"></span>
+                <span class="error"></span>
             </div>
             <div class="containerBTNEnviar">
-                <button type="submit">Enviar mensaje</button>
+                <button type="button" id="btnMensaje"></button>
             </div>
         </form>
     </footer>

@@ -1,5 +1,10 @@
 //const inputNcimiento = document.querySelector("#birth");
 
+const bntEnviarMensaje = document.getElementById('btnMensaje');
+
+bntEnviarMensaje.addEventListener('click', enviarMensaje);
+
+
 export function valida(input){
     const tipoDeInput = input.dataset.tipo;
 
@@ -14,6 +19,26 @@ export function valida(input){
         input.parentElement.classList.add("input-container--invalid")
         input.parentElement.querySelector(".input-message-error").innerHTML = mostrarMensjeError(tipoDeInput, input);
     }
+
+   
+}
+
+function enviarMensaje(){
+
+    let name = document.getElementById('name').value;
+    let msj = document.getElementById('mensaje').value.trim();
+
+    if(name === "" || msj === ""){
+       alert("Debes llenar los campos")
+    }else{
+       alert("Mensaje enviado")
+    }
+
+    document.getElementById('name').value = ""
+    document.getElementById('mensaje').value = ""
+    
+  
+   
 }
 
 const tipoDeErrores = [
@@ -59,6 +84,8 @@ function mostrarMensjeError(tipoDeInput, input){
     });
     return mensaje;
 }
+
+
 
 /*function validarNcimiento(input){
     const fechaCliente = new Date(input.value);
