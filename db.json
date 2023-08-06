@@ -1,0 +1,39 @@
+{
+  "perfil": [
+    {
+      "nombre": "Leonardo",
+      "email": "leo@outlook.com",
+      "contrasena": "123"
+    },
+    {
+      "nombre": "sandra",
+      "email": "daniela@alura.com",
+      "id": "7d6bf60d-3ad1-464a-bbf9-0f749dd69104"
+    },
+    {
+      "nombre": "jose ",
+      "email": "jose@outlook.com",
+      "id": "f841419a-c26d-48dc-b02c-0b4fb74b9c0a"
+    },
+    {
+      "nombre": "oscar",
+      "email": "oscar@alura.com",
+      "id": "ae19b748-7ba5-48c6-93fa-06b20595440f"
+    },
+    {
+      "nombre": "paco",
+      "email": "paco@alura.com",
+      "id": "b6038c56-80da-4563-8019-da749abd9c9d"
+    },
+    {
+      "nombre": "daniela",
+      "email": "daniela@alura.com",
+      "id": "ce8fcd8e-8131-4cad-b088-ac2829f6b2a0"
+    },
+    {
+      "nombre": "sebastian",
+      "email": "sebas@outlook.com",
+      "id": "b8ea1639-15ed-4b45-94a6-955d72f6dbbd"
+    }
+  ]
+}

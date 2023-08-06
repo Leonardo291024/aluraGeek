@@ -23,19 +23,19 @@
 
     <main>
         <h1>Iniciar sesion</h1>
-        <form action="./productos.html">
+        <form action="./productos.html" data-form>
             <div class="input-container">
-                <input type="text" name="name"  class="input-logIn" id="name" required data-tipo="nombre">
+                <input type="text" name="name"  class="input-logIn" id="name" required data-tipo="nombre" data-nombre>
                 <label for="name" class="input-label">Nombre</label>
                 <span class="input-message-error"></span>
             </div>
             <div  class="input-container">
-                <input type="email" name="email" id="email" class="input-logIn" required data-tipo="email">
+                <input type="email" name="email" id="email" class="input-logIn" required data-tipo="email" data-email>
                 <label for="email" class="input-label">email</label>
                 <span class="input-message-error"></span>
             </div>
             <div  class="input-container">
-                <input type="password" name="" class="input-logIn" required pattern="^(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{6,12}$" title="Al menos 6 caracteres, maximo 12 caracteres debe contener una letra minuscula, una letra mayuscula, un numero y no puede contener caracteres especiales." id="password" data-tipo="password">
+                <input type="password" name="" class="input-logIn" required pattern="^(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{6,12}$" title="Al menos 6 caracteres, maximo 12 caracteres debe contener una letra minuscula, una letra mayuscula, un numero y no puede contener caracteres especiales." id="password" data-tipo="password" data-pasword>
                 <label for="password" class="input-label">contraseña</label>
                 <span class="input-message-error"></span>
             </div>
@@ -77,5 +77,7 @@
     </footer>
 
     <script src="./main/app.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="./controller/registro-controller.js"></script>
 </body>
 </html>
