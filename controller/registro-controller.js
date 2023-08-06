@@ -13,6 +13,6 @@ formulario.addEventListener('submit', (evento) =>{
 
     clientServices.crearCliente(nombre, email).then(() =>{
         alert("REGISTRO COMPLETADO");
-        window.location.href = '/nuevoProducto.html';
+        window.location.href = './nuevoProducto.html';
     }).catch((err) => console.log(err));
 });

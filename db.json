@@ -34,6 +34,16 @@
       "nombre": "sebastian",
       "email": "sebas@outlook.com",
       "id": "b8ea1639-15ed-4b45-94a6-955d72f6dbbd"
+    },
+    {
+      "nombre": "laura",
+      "email": "laura@alura.com",
+      "id": "970e3803-808d-40bc-98bf-a2ccf7d6618b"
+    },
+    {
+      "nombre": "julio",
+      "email": "julio@alura.com",
+      "id": "cc0ea412-e15d-4878-98bf-f3dca55798a5"
     }
   ]
 }
