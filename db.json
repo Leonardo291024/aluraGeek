@@ -44,6 +44,11 @@
       "nombre": "julio",
       "email": "julio@alura.com",
       "id": "cc0ea412-e15d-4878-98bf-f3dca55798a5"
+    },
+    {
+      "nombre": "sergio",
+      "email": "sergio@alura.com",
+      "id": "9b2d4dea-7731-421d-85bc-a6688e881a5f"
     }
   ]
 }
