@@ -1,7 +1,7 @@
-const listaClientes = () => fetch('http://localhost:3000/perfil').then((respuesta) => respuesta.json());
+const listaClientes = () => fetch('https://github.com/Leonardo291024/aluraGeek/perfil').then((respuesta) => respuesta.json());
 
 const crearCliente = (nombre, email) =>{
-    return fetch('http://localhost:3000/perfil',{
+    return fetch('https://github.com/Leonardo291024/aluraGeek/perfil',{
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

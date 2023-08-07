@@ -49,6 +49,26 @@
       "nombre": "sergio",
       "email": "sergio@alura.com",
       "id": "9b2d4dea-7731-421d-85bc-a6688e881a5f"
+    },
+    {
+      "nombre": "mauricio",
+      "email": "mau@outlook.com",
+      "id": "c0a25a9b-7f7e-4580-8de3-07723dbc4fe4"
+    },
+    {
+      "nombre": "Esteban",
+      "email": "teban@alura.com",
+      "id": "7f46e3d5-ab2d-41b9-9025-d4f02b62f915"
+    },
+    {
+      "nombre": "Leo",
+      "email": "leo@correo.com",
+      "id": "1c13202c-9cc3-45c5-ae96-0025ea1c1fba"
+    },
+    {
+      "nombre": "Fernando",
+      "email": "fer@alura.com",
+      "id": "f897029d-11e5-4546-a5ba-9b765a3ec4b4"
     }
   ]
 }
